@@ -13,4 +13,10 @@ mix.jigsaw()
     .options({
         processCssUrls: false,
     })
+    .webpackConfig({
+        output: {
+            publicPath: '/assets/build/',
+            chunkFilename: 'dist/[name].[chunkhash].js',
+        }
+    })    
     .version();
