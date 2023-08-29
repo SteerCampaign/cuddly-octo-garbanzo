@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
+ssaaaaa
 <!-- Hero -->
 <div class="relative overflow-hidden">
   <!-- Gradients -->
