@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
  content: require('fast-glob').sync([
     'source/**/*.{blade.php,blade.md,md,html,vue}',
@@ -5,7 +7,11 @@ module.exports = {
     'node_modules/preline/dist/*.js'
   ],{ dot: true }),
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      }
+    },
   },
   plugins: [
     require('preline/plugin')
