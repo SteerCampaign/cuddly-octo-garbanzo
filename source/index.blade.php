@@ -1,7 +1,8 @@
 @extends('_layouts.main')
 
 @section('body')
-ssaaaaa
+@svg('camera', 'w-6 h-6')
+
 <!-- Hero -->
 <div class="relative overflow-hidden">
   <!-- Gradients -->
