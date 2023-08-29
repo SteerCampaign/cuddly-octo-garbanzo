@@ -1,3 +1,4 @@
+const { colors } = require('laravel-mix/src/Log');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
@@ -10,6 +11,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
       }
     },
   },

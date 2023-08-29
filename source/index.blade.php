@@ -1,7 +1,6 @@
 @extends('_layouts.main')
 
 @section('body')
-@svg('camera', 'w-6 h-6')
 
 <!-- Hero -->
 <div class="relative overflow-hidden">
@@ -12,7 +11,7 @@
   </div>
   <!-- End Gradients -->
 
-  <div class="relative z-10">
+  <div class="relative">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
       <div class="max-w-2xl text-center mx-auto">
         <p class="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
