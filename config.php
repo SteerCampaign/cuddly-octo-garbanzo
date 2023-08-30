@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
+    'baseUrl' => 'https://cuddly-octo-garbanzo.ddev.site',
     'title' => 'Jigsaw',
     'description' => 'Website description.',
     'collections' => [],

@@ -55,7 +55,7 @@
 
             <a class="mt-4 group" href="#">
               <div class="aspect-w-16 aspect-h-9">
-                <img class="w-full object-cover rounded-lg" src="assets/images/menu/partners.jpg" alt="Image Description">
+                <img class="w-full object-cover rounded-lg" src="{{url('assets/images/menu/partners.jpg')}}" alt="Image Description">
               </div>
               <div class="mt-2">
                 <p class="text-gray-800 dark:text-gray-200 font-semibold">Get priority support, exclusive discounts, and more.</p>

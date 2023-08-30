@@ -3,7 +3,7 @@
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
         <a class="flex-none" href="/" title="{{ $page->siteName }} home" aria-label="SteerCampaign Logo">
-          <img class="h-4/6 mr-1" src="/assets/images/logo.svg" alt="{{ $page->siteName }} logo" width="300" />
+          <img class="h-4/6 mr-1" src="{{url('assets/images/logo.svg')}}" alt="{{ $page->siteName }} logo" width="300" />
         </a>
         <div class="md:hidden">
           <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">

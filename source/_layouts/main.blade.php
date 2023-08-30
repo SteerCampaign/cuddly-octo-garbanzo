@@ -11,7 +11,7 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Hero Gradient Background using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
         <meta name="twitter:description" content="Hero section example using Tailwind CSS for Preline UI, a product of Htmlstream.">
-        <meta name="twitter:image" content="../../assets/img/og-image.png">
+        <meta name="twitter:image" content="{{url('assets/images/og-logo.svg')}}">
       
         <meta property="og:url" content="https://preline.co/">
         <meta property="og:locale" content="en_US">
@@ -19,11 +19,12 @@
         <meta property="og:site_name" content="Preline">
         <meta property="og:title" content="Hero Gradient Background using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
         <meta property="og:description" content="Hero section example using Tailwind CSS for Preline UI, a product of Htmlstream.">
-        <meta property="og:image" content="../../assets/img/og-image.png">
+        <meta property="og:image" content="{{url('assets/images/og-logo.svg')}}">
 
         <title>{{ $page->title }}</title>
 
-        <link rel="shortcut icon" href="../../favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="{{url('assets/images/favicon.svg')}}">
+        <link rel="icon" type="image/png" href="{{url('assets/images/favicon.png')}}">        
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

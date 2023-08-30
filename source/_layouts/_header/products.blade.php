@@ -90,7 +90,7 @@
                 <p class="text-gray-800 dark:text-gray-200 mb-3">
                     Steer Campaign offers you Mautic hosting, customization, and training services. so you can foucs on your business and forget about the technical details.
                 </p>
-                <img class="w-7/12 h-fit rounded-lg mb-2" src="assets/images/menu/woman-looking-forward.jpg" alt="Steer Campaign helps you get started with Mautic">
+                <img class="w-7/12 h-fit rounded-lg mb-2" src="{{url('assets/images/menu/woman-looking-forward.jpg')}}" alt="Steer Campaign helps you get started with Mautic">
                 <p class="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-gray-800 dark:text-gray-200">
                     Learn more
                     <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
