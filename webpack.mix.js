@@ -23,8 +23,8 @@ mix.jigsaw()
     })
     .webpackConfig({
         output: {
-            publicPath: '/assets/build/',
-            chunkFilename: 'dist/[name].[chunkhash].js',
+            publicPath: 'assets/build/js/',
+            chunkFilename: '[name].[chunkhash].js',
         }
     })
     .browserSync({
