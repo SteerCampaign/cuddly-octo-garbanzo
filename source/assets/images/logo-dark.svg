@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1200"
-   height="728"
-   viewBox="0 0 317.49999 192.61668"
+   width="1082.1307"
+   height="390.99719"
+   viewBox="0 0 286.31375 103.45135"
    version="1.1"
    id="svg413"
    sodipodi:docname="logo-dark.svg"
@@ -36,17 +36,56 @@
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs410" />
   <g
      inkscape:label="Background"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1"
+     transform="translate(-5.8002112,-44.357031)">
+    <rect
+       style="fill:none;stroke-width:0.264583"
+       id="rect1"
+       width="277.90329"
+       height="104.24904"
+       x="4.4865966"
+       y="45.64967" />
+    <rect
+       style="fill:none;stroke-width:0.264583"
+       id="rect2"
+       width="118.20395"
+       height="91.096024"
+       x="178.53476"
+       y="57.020134"
+       ry="33.392551" />
+    <rect
+       style="fill:none;stroke-width:0.264583"
+       id="rect4"
+       width="275.68042"
+       height="95.816422"
+       x="6.0186734"
+       y="49.935699"
+       ry="0.16872355"
+       inkscape:export-filename="../../../../Desktop/upwork task/rect4.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;stroke-width:0.264583"
+       id="rect5"
+       width="286.31378"
+       height="103.45135"
+       x="5.8002114"
+       y="44.357033"
+       ry="0.16872355" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Slogan">
+     inkscape:label="Slogan"
+     transform="translate(-5.8002112,-44.357031)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:20.3529px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -62,7 +101,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Icon">
+     inkscape:label="Icon"
+     transform="translate(-5.8002112,-44.357031)">
     <g
        id="g682"
        transform="matrix(0.48429881,0,0,0.48429881,-13.113813,23.66351)"
@@ -88,12 +128,12 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:19.05px;line-height:29.7657px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-     x="203.97668"
-     y="79.785637"
+     x="198.17647"
+     y="35.428608"
      id="text9589"><tspan
        sodipodi:role="line"
        id="tspan9587"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.05px;font-family:Varela;-inkscape-font-specification:Varela;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-       x="203.97668"
-       y="79.785637">Steer Campaign</tspan></text>
+       x="198.17647"
+       y="35.428608">Steer Campaign</tspan></text>
 </svg>

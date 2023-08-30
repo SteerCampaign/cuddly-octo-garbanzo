@@ -3,7 +3,7 @@
       <!-- Grid -->
       <div class="grid grid-cols-5 md:grid-cols-4 lg:grid-cols-5 gap-6">
         <div class="col-span-full lg:col-span-1">
-          <img class="h-full w-full mr-1" src="{{url('assets/images/logo-dark.svg')}}" alt="{{ $page->siteName }} logo" width="300" />
+          <img class="mr-1" src="{{url('assets/images/logo-dark.svg')}}" alt="{{ $page->siteName }} logo" width="300" />
         </div>
         <!-- End Col -->
   
