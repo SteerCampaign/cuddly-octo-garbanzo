@@ -12,6 +12,7 @@ require('laravel-mix-jigsaw');
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
+
 mix.jigsaw()
     .js('source/_assets/js/main.js', 'js')
     .css('source/_assets/css/main.css', 'css', [
@@ -24,7 +25,7 @@ mix.jigsaw()
     .webpackConfig({
         output: {
             publicPath: '/assets/build/',
-            chunkFilename: 'dist/[name].[chunkhash].js',
+            chunkFilename: 'js/[name].[chunkhash].js',
         }
     })
     .browserSync({

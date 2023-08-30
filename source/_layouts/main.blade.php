@@ -29,8 +29,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <link rel="stylesheet" href="{{ url(mix('css/main.css', 'assets/build')) }}">
+        <script defer src="{{ url(mix('js/main.js', 'assets/build')) }}"></script>
     </head>
     <body class="dark:bg-slate-900">
         @include('_layouts._header.menu')
