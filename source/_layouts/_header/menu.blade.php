@@ -21,8 +21,9 @@
         <div class="overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-y">
           <div class="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
             @include('_layouts._header.products')
-            @include('_layouts._header.products')
-            @include('_layouts._header.products')
+            @include('_layouts._header.solutions')
+            @include('_layouts._header.resources')
+            @include('_layouts._header.pricing')
 
             <div class="pt-3 md:pt-0">
               <a class="inline-flex py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" href="#">
