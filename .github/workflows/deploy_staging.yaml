@@ -30,4 +30,4 @@ jobs:
                 export AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY}}
                 ls ./build_staging
                 aws s3 cp ./build_staging s3://${{ secrets.AWS_BUCKET }} --recursive --region us-east-1
-                aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
+                aws cloudfront create-invalidation --region us-east-1 --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
