@@ -23,6 +23,7 @@ jobs:
             - name: Build Assets
               run: |
                 composer install -n --prefer-dist
+                npm ci
                 npm run staging
 
             - uses: shallwefootball/s3-upload-action@master
