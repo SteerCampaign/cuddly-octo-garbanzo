@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://steercampaign.github.io/cuddly-octo-garbanzo/',
+    'baseUrl' => 'https://staging-website.steercampaign.com/',
     'production' => false,
     'staging' => true
 ];
