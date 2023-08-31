@@ -11,9 +11,9 @@
           <h4 class="font-semibold text-gray-100">Products</h4>
   
           <div class="mt-3 grid space-y-3">
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Mautic Hosting</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Mautic Customization</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Mautic Training</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/products/mautic-hosting/">Mautic Hosting</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/products/mautic-customization/">Mautic Customization</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/products/mautic-training/">Mautic Training</a></p>
           </div>
         </div>
         <!-- End Col -->
@@ -22,11 +22,11 @@
           <h4 class="font-semibold text-gray-100">Features</h4>
   
           <div class="mt-3 grid space-y-3">
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Email</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">SMS</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Marketing Automation</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Integrations</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Features</a></p>    
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/features/email-marketing/">Email</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/features/sms-marketing/">SMS</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/features/marketing-automation">Marketing Automation</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/features/integrations/">Integrations</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/features/">Features</a></p>
           </div>
         </div>
         <!-- End Col -->
@@ -35,8 +35,8 @@
           <h4 class="font-semibold text-gray-100">Support</h4>
   
           <div class="mt-3 grid space-y-3">
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Services & Support</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">FAQs</a>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/support/services-and-support/">Services & Support</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/support/faqs/">FAQs</a>
           </div>
         </div>
         <!-- End Col -->
@@ -45,9 +45,10 @@
           <h4 class="font-semibold text-gray-100">Company</h4>
   
           <div class="mt-3 grid space-y-3">
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">About Us</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Case Studies</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Agency Partner Program</a></p>            
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/about-us/">About Us</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/customers/">Case Studies</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/agency-partner-program/">Agency Partner Program</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/contact-us/">Contact Us</a></p>
           </div>
 
         </div>
@@ -62,8 +63,8 @@
         <!-- End Col -->
   
         <div class="space-x-4 text-sm ml-4 mt-3">
-          <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="#">Terms</a>
-          <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="#">Privacy</a>          
+          <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="/legal/terms/">Terms</a>
+          <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="/legal/privacy/">Privacy</a>
         </div>
       </div>
     </div>
