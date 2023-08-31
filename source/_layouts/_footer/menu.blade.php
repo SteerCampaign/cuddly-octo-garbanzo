@@ -1,13 +1,13 @@
 <footer class="bg-gray-900">
     <div class="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
       <!-- Grid -->
-      <div class="grid grid-cols-5 md:grid-cols-4 lg:grid-cols-5 gap-6">
+      <div class="grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-6">
         <div class="col-span-full lg:col-span-1">
           <img class="mr-1" src="{{url('assets/images/logo-dark.svg')}}" alt="{{ $page->siteName }} logo" width="300" />
         </div>
         <!-- End Col -->
   
-        <div class="col-span-1">
+        <div class="col-span-2 lg:col-span-1">
           <h4 class="font-semibold text-gray-100">Products</h4>
   
           <div class="mt-3 grid space-y-3">
@@ -18,7 +18,7 @@
         </div>
         <!-- End Col -->
 
-        <div class="col-span-1">
+        <div class="col-span-2 lg:col-span-1">
           <h4 class="font-semibold text-gray-100">Features</h4>
   
           <div class="mt-3 grid space-y-3">
@@ -31,7 +31,7 @@
         </div>
         <!-- End Col -->
 
-        <div class="col-span-1">
+        <div class="col-span-2 lg:col-span-1">
           <h4 class="font-semibold text-gray-100">Support</h4>
   
           <div class="mt-3 grid space-y-3">
@@ -41,7 +41,7 @@
         </div>
         <!-- End Col -->
   
-        <div class="col-span-1">
+        <div class="col-span-2 lg:col-span-1">
           <h4 class="font-semibold text-gray-100">Company</h4>
   
           <div class="mt-3 grid space-y-3">
@@ -61,7 +61,7 @@
         </div>
         <!-- End Col -->
   
-        <div class="space-x-4 text-sm ml-4">
+        <div class="space-x-4 text-sm ml-4 mt-3">
           <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="#">Terms</a>
           <a class="inline-flex gap-x-2 text-white hover:text-gray-300 dark:text-white-400 dark:hover:text-white-200" href="#">Privacy</a>          
         </div>
