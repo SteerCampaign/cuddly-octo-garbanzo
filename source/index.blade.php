@@ -425,7 +425,7 @@
 
 
 <!-- Testimonials -->
-<div class="border-t overflow-hidden dark:border-slate-800">
+<div class="border-t overflow-hidden dark:border-slate-800 mb-3">
   <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl pt-10 px-4 sm:px-6 lg:py-20 lg:px-8 mx-auto">
       <div class="mb-5 sm:mb-10 text-center">
