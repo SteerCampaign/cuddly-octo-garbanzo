@@ -147,6 +147,6 @@
   </div>
   <!-- End Icon Blocks -->  
 
-@include('products._cta')
+@include('_layouts.cta')
 
 @endsection

@@ -4,7 +4,7 @@
 <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
    <!-- Grid -->
    <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
-      <div c>
+      <div>
          <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Mautic Hosting</p>
          <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Host your Mautic with the Mautic Experts</h1>
          <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">As Mautic contributors, we possess the expertise to proficiently run and host the platform.</p>
@@ -473,5 +473,5 @@
   </div>
   <!-- End FAQ -->
 
-@include('products._cta')  
+@include('_layouts.cta')
 @endsection
