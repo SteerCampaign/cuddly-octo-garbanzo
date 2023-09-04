@@ -22,7 +22,7 @@
           <div class="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
             @include('_layouts._header.products')
             @include('_layouts._header.solutions')
-            @include('_layouts._header.resources')
+            @include('_layouts._header.faqs')
             @include('_layouts._header.pricing')
 
             <div class="pt-3 md:pt-0">

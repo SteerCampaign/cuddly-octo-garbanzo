@@ -35,20 +35,17 @@
           <h4 class="font-semibold text-gray-100">Support</h4>
   
           <div class="mt-3 grid space-y-3">
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/support/services-and-support/">Services & Support</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/support/faqs/">FAQs</a>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/support/faq/">FAQs</a>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/contact-us/">Contact Us</a></p>
           </div>
         </div>
         <!-- End Col -->
   
         <div class="col-span-2 lg:col-span-1">
-          <h4 class="font-semibold text-gray-100">Company</h4>
-  
+          <h4 class="font-semibold text-gray-100">Company</h4>  
           <div class="mt-3 grid space-y-3">
             <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/about-us/">About Us</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/customers/">Case Studies</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/agency-partner-program/">Agency Partner Program</a></p>
-            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/contact-us/">Contact Us</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/agency-partner-program/">Agency Partner Program</a></p>            
           </div>
 
         </div>
