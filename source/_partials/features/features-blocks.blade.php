@@ -62,7 +62,7 @@
       <!-- End Card -->
 
       <!-- Card -->
-      <a class="group flex gap-y-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all dark:hover:bg-white/[.075]" href="/features/forms/">
+      <a class="group flex gap-y-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all dark:hover:bg-white/[.075]" href="/features/integrations/">
         <div>
           <div>
             <h3 class="block font-bold text-2xl text-gray-800 dark:text-white mb-3">Integrations</h3>
