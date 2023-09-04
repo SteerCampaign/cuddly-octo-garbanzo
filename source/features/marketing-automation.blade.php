@@ -1,136 +1,99 @@
 @extends('_layouts.main')
 
 @section('body')
-<!-- Hero -->
-<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Grid -->
-    <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
-      <div class="lg:col-span-3">
-        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Mautic Features.</p>
-        <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Build Better Camapigns</h1>
-        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">
-            Mautic bundles a wealth of features into a single platform. Discover how businesses of all scales leverage these tools to enhance customer lifetime value, retention rates, and revenue growth.
-        </p>
+@include('_partials.features.hero',[
+  'sub_header' => 'Mautic Features', 
+  'header' => 'Build Better Camapigns', 
+  'desc' => 'Mautic bundles a wealth of features into a single platform. Discover how businesses of all scales leverage these tools to enhance customer lifetime value, retention rates, and revenue growth.',
+  'image' => '/assets/images/features/marketing-automation.jpeg',
+  'alt' => 'Mautic marketing automation.'
+])
 
-         <!-- Buttons -->
-         <div class="mt-7 grid gap-3 w-full sm:inline-flex border-solid">
-            <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
-               Signup
-               <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-               </svg>
-            </a>
-            <a class="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800" href="#">
-            Get a demo
-            </a>
-         </div>
-         <!-- End Buttons -->
-        
-  
-      </div>
-      <!-- End Col -->
-  
-      <div class="lg:col-span-4 mt-10 lg:mt-0">
-        <img class="w-full rounded-xl" src="/assets/images/features/marketing-automation.jpeg" alt="Mautic marketing automation">
-      </div>
-      <!-- End Col -->
+<!-- Icon Blocks -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-5">
+  <!-- Grid -->
+  <div class="grid md:grid-cols-2 gap-12">
+    <div class="lg:w-3/4">
+      <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl dark:text-white">
+        Personalized, multi-channel marketing journeys that drive results.
+      </h2>
+      <p class="mt-3 text-gray-800 dark:text-gray-400">
+        Mautic's cutting-edge campaign builder seamlessly engages with leads by intuitively responding to their actions and properties, revolutionizing your marketing strategy.
+      </p>
     </div>
-    <!-- End Grid -->
-  </div>
-  <!-- End Hero -->
+    <!-- End Col -->
 
-<!-- Features -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <!-- Grid -->
-    <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
-      <div>
-        <img class="rounded-xl" src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80" alt="Image Description">
-      </div>
-      <!-- End Col -->
-  
-      <div class="mt-5 sm:mt-10 lg:mt-0">
-        <div class="space-y-6 sm:space-y-8">
-          <!-- Title -->
-          <div class="space-y-2 md:space-y-4">
-            <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-              We tackle the challenges start-ups face
-            </h2>
-            <p class="text-gray-500">
-              Besides working with start-up enterprises as a partner for digitalization, we have built enterprise products for common pain points that we have encountered in various products and projects.
-            </p>
-          </div>
-          <!-- End Title -->
-  
-          <!-- List -->
-          <ul role="list" class="space-y-2 sm:space-y-4">
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-  
-              <span class="text-sm sm:text-base text-gray-500">
-                <span class="font-bold">Easy & fast</span> designing
-              </span>
-            </li>
-  
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-  
-              <span class="text-sm sm:text-base text-gray-500">
-                Powerful <span class="font-bold">features</span>
-              </span>
-            </li>
-  
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-  
-              <span class="text-sm sm:text-base text-gray-500">
-                User Experience Design
-              </span>
-            </li>
-          </ul>
-          <!-- End List -->
+    <div class="space-y-6 lg:space-y-10">
+      <!-- Icon Block -->
+      <div class="flex">
+        <!-- Icon -->
+        <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+          </svg>
+        </span>
+        <div class="ml-5 sm:ml-8">
+          <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Personalized experiences
+          </h3>
+          <p class="mt-1 text-gray-600 dark:text-gray-400">
+            Robust personalization capabilities allow you to tailor every interaction, from emails to web content.
+          </p>
         </div>
       </div>
-      <!-- End Col -->
+      <!-- End Icon Block -->
+
+      <!-- Icon Block -->
+      <div class="flex">
+        <!-- Icon -->
+        <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+        </span>
+        <div class="ml-5 sm:ml-8">
+          <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Conversations across various channels
+          </h3>
+          <p class="mt-1 text-gray-600 dark:text-gray-400">
+            Campaigns communicates with and tracks leads across diverse channels.
+          </p>
+        </div>
+      </div>
+      <!-- End Icon Block -->
+
+      <!-- Icon Block -->
+      <div class="flex">
+        <!-- Icon -->
+        <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+          </svg>
+        </span>
+        <div class="ml-5 sm:ml-8">
+          <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Higher Conversion Rates
+          </h3>
+          <p class="mt-1 text-gray-600 dark:text-gray-400">            
+            Campaigns nurture leads with precision, leading to higher conversion rates and delivering more significant business results.
+          </p>
+        </div>
+      </div>
+      <!-- End Icon Block -->
     </div>
-    <!-- End Grid -->
+    <!-- End Col -->
   </div>
-  <!-- End Features -->  
+  <!-- End Grid -->
+</div>
+<!-- End Icon Blocks -->
 
-  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-5 bg-gradient-to-b from-gray-100 to-transparent">
-    <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200 mb-3 text-center">
-        See it in action
-    </h2>
-    <figure class="mx-auto relative z-[1] max-w-full w-[50rem] h-auto rounded-b-lg shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)]">
-        <div class="relative flex items-center max-w-[50rem] bg-gray-800 rounded-t-lg py-2 px-24 dark:bg-gray-700">
-          <div class="flex space-x-1 absolute top-2/4 left-4 -translate-y-1">
-            <span class="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-            <span class="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-            <span class="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-          </div>
-          <div class="flex justify-center items-center w-full h-full bg-gray-700 text-[.25rem] text-gray-400 rounded-sm sm:text-[.5rem] dark:bg-gray-600 dark:text-gray-400">www.steercampaign.com</div>
-        </div>
-      
-        <div class="bg-gray-800 rounded-b-lg">
-          <img class="max-w-full h-auto rounded-b-lg" src="/assets/images/features/campaign-builder.png" alt="Mautic camapgin builder">
-        </div>
-      </figure>    
-  </div>
-
-@include('features._features-blocks')  
+@include('_partials.features.in-action', [
+  'image' => '/assets/images/features/campaign-builder.png',
+  'alt' => 'Mautic campaign builder'
+])
+  
+@include('_partials.features.features-blocks')
 @include('_layouts.cta')  
 @endsection
