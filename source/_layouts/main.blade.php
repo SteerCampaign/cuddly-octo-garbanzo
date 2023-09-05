@@ -36,6 +36,7 @@
     <body class="dark:bg-slate-900">
         @include('_layouts._header.menu')
         @yield('body')
+        @include('_partials.modal')
         @include('_layouts._footer.menu')
     </body>
 </html>

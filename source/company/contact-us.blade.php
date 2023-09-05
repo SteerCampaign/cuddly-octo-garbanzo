@@ -20,7 +20,7 @@
         <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-gray-200">
           Fill in the form
         </h2>
-  
+        <script type="text/javascript" src="//engage.steercampaign.com/form/generate.js?id=3"></script>  
         <form>
           <div class="grid gap-4 lg:gap-6">
             <!-- Grid -->
