@@ -62,7 +62,7 @@
 
 
 <!-- Features -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gradient-to-r from-blue-200/50 ">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gradient-to-b from-slate-50 ">
   <!-- Grid -->
   <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
     <div>
@@ -210,7 +210,7 @@
   <div class="max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-16 mx-auto">
     <!-- Gradients -->
     <div aria-hidden="true" class="flex absolute left-0 -z-[1]">
-      <div class="bg-blue-300 opacity-20 blur-3xl w-[1036px] h-[300px] dark:bg-purple-900 dark:opacity-20"></div>
+      <div class="bg-slate-300 opacity-20 blur-3xl w-[1036px] h-[300px] dark:bg-purple-900 dark:opacity-20"></div>
     </div>
     <!-- End Gradients -->
 
@@ -232,6 +232,14 @@
               <div class="lg:hidden flex-shrink-0">
                 <img class="h-12 w-12 rounded-full" src="/assets/images/homepage/relaxed-people.jpg" alt="Steer Campaign makes you relax while running Mautic">
               </div>            
+              <div class="ml-4 lg:ml-0">
+                <p class="font-medium text-gray-800 dark:text-gray-200">
+                  Ben Cohen
+                </p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">
+                  Marketing Director
+                </p>
+              </div>
             </div>
           </footer>
         </blockquote>

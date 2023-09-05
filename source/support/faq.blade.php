@@ -8,11 +8,9 @@
             <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Steer Campaign FAQ</p>
             <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Mautic hosting and Migration FAQ</h1>
             <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Here is a list of commonly asked questions regarding Steer Campaign service. If you have questions, don’t hesitate to ask us directly.</p>
-    
-
             <!-- Buttons -->
             <div class="mt-7 grid gap-3 w-full sm:inline-flex border-solid">
-            <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
+            <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="/company/contact-us/">
                 Get in touch
                 <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -74,63 +72,83 @@
       <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Can I cancel at anytime?
+            What is Steer Campaign, and what do you offer?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
+            Steer Campaign is a technology company committed to democratizing marketing automation, particularly through our partnership with Mautic. Together with Mautic, we offer solutions that make marketing automation accessible and practical for businesses of all sizes. Our platform, powered by Mautic, empowers you to create efficient and effective marketing campaigns.
           </p>
         </div>
         <!-- End Col -->
   
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            My team has credits. How do we use them?
+            How does Steer Campaign simplify marketing automation?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.
+            We simplify marketing automation by offering user-friendly tools and affordable solutions. Our platform is designed to streamline marketing strategies, allowing businesses to harness the power of automation without complexity.
           </p>
         </div>
         <!-- End Col -->
   
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            How does Preline's pricing work?
+            What makes Steer Campaign different from other marketing automation providers?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.
+            At Steer Campaign, our mission revolves around merging software innovation with top-tier service as Mautic developers. We are unwavering in our dedication to ensuring that marketing automation, driven by Mautic, is accessible to organizations of all sizes. Our distinguishing factors include our commitment to affordability and user-friendliness, which set us apart in the industry.
           </p>
         </div>
         <!-- End Col -->
   
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            How secure is Preline?
+            How can I get started with Steer Campaign's services?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Protecting the data you trust to Preline is our first priority. This part is really crucial in keeping the project in line to completion.
+            To begin using Steer Campaign's services, simply visit our website and sign up for an account. Our platform is designed to be intuitive, but if you need assistance, our support team is ready to help.
           </p>
         </div>
         <!-- End Col -->
   
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Do you offer discounts?
+            Is Steer Campaign suitable for small businesses?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            We've built in discounts at each tier for teams. The time has come to bring those ideas and plans to life.
+            Absolutely! Steer Campaign is designed to cater to organizations of all sizes. Whether you're a small startup or a large enterprise, our platform provides the tools and affordability you need to succeed.
           </p>
         </div>
         <!-- End Col -->
   
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            What is your refund policy?
+            How can I contact Steer Campaign's support team?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            We offer refunds. We aim high at being focused on building relationships with our clients and community.
+            You can reach our support team by visiting the "Contact Us" page on our website. We are here to assist you with any questions or issues you may encounter.
           </p>
         </div>
         <!-- End Col -->
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            What types of marketing automation solutions does Steer Campaign offer?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Steer Campaign provides a range of marketing automation solutions, including email marketing, customer segmentation, campaign tracking, and more. Our goal is to offer a comprehensive suite of tools to meet your marketing needs.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Is there a free trial available?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Yes, we offer a free trial period so you can explore our platform and see how it can benefit your business. Sign up on our website to get started with the trial.
+          </p>
+        </div>
+        <!-- End Col -->
+        
       </div>
       <!-- End Grid -->
     </div>
