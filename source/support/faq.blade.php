@@ -154,5 +154,5 @@
     </div>
   </div>
   <!-- End FAQ -->
-
+  @include('_layouts.cta')    
 @endsection

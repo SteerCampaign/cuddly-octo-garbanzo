@@ -24,17 +24,11 @@
             @include('_layouts._header.solutions')
             @include('_layouts._header.faqs')
             @include('_layouts._header.pricing')
-
             <div class="pt-3 md:pt-0">
-              <a class="inline-flex py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" href="#">
-                  Signup
-              </a>
-
-              <a class="inline-flex py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" data-hs-overlay="#hs-modal-demo">
+              <a data-hs-overlay="#get-demo" class="inline-flex py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
                 Get a demo
               </a>
-
-              <a class="inline-flex justify-center items-center gap-x-2 text-center underline font-semibold items-center gap-2" href="#">
+              <a class="inline-flex justify-center items-center gap-x-2 text-center underline font-semibold items-center gap-2" href="https://app.steercampaign.com/login">
                 Log in
               </a>
             </div>

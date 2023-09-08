@@ -37,6 +37,7 @@
         @include('_layouts._header.menu')
         @yield('body')
         @include('_partials.modal')
+        @stack('data')
         @include('_layouts._footer.menu')
     </body>
 </html>
