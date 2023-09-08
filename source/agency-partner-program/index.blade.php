@@ -9,11 +9,9 @@
             <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Steer Campaign Agency Partner Program</p>
             <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Unlock New Opportunities</h1>
             <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Access priority support, benefit from exclusive pricing advantages, enjoy top-notch recurring referral commissions, and tap into a wealth of leads and resources to fuel the growth of your Mautic agency venture today.</p>
-    
-
             <!-- Buttons -->
             <div class="mt-7 grid gap-3 w-full sm:inline-flex border-solid">
-            <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
+            <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#contact-form">
                 Become a partner
                 <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -180,5 +178,30 @@
   </div>
   <!-- End Icon Blocks -->
 
-  <h1 class="text-4xl text-center">ADD THE FORM HERE</h1>
+
+<!-- Contact Us -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="contact-form">
+  <div class="max-w-xl mx-auto">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
+        Contact us
+      </h1>
+      <p class="mt-1 text-gray-600 dark:text-gray-400">
+        We'd love to talk about how we can help you.
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-12 max-w-lg mx-auto">
+    <!-- Card -->
+    <div class="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
+      <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-gray-200">
+        Fill in the form
+      </h2>
+      <script type="text/javascript" src="//engage.steercampaign.com/form/generate.js?id=3"></script>  
+    </div>
+    <!-- End Card -->
+  </div>
+</div>
+<!-- End Contact Us -->  
 @endsection

@@ -24,20 +24,7 @@
         <div class="mt-5 max-w-3xl">
           <p class="text-lg text-gray-600 dark:text-gray-400">Unleash Your Marketing Potential with Mautic: Your Open Source Solution!</p>
         </div>
-
-        <!-- Buttons -->
-        <div class="mt-8 grid gap-3 w-full sm:inline-flex sm:justify-center">
-          <a class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-800 text-white hover:bg-white hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-2 transition-all text-sm dark:text-white dark:hover:bg-blue-800 dark:hover:border-blue-900 dark:focus:ring-blue-900 dark:focus:ring-offset-blue-800 border-2 border-blue-900" href="/pricing/">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-              <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd" />
-            </svg>            
-            Signup
-          </a>
-          <a data-hs-overlay="#get-demo" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-2 font-semibold text-gray-800 hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 transition-all text-sm dark:text-white dark:hover:bg-gray-800 dark:hover:border-gray-900 dark:focus:ring-gray-900 dark:focus:ring-offset-gray-800  border-gray-900">
-            Get a demo
-          </a>
-        </div>
-        <!-- End Buttons -->
+        @include('_partials.cta-buttons')
       </div>
     </div>
   </div>
@@ -83,20 +70,7 @@
           <p class="text-gray-500">
             Get a demo to learn about our services, or get started with a trial account to experience the power of Mautic.
           </p>
-        <!-- Buttons -->
-        <div class="mt-8 grid gap-3 w-full sm:inline-flex sm:justify-center">
-          <a class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-800 text-white hover:bg-white hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-2 transition-all text-sm dark:text-white dark:hover:bg-blue-800 dark:hover:border-blue-900 dark:focus:ring-blue-900 dark:focus:ring-offset-blue-800 border-2 border-blue-900" href="/pricing/">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-              <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd" />
-            </svg>            
-            Signup
-          </a>
-          <a data-hs-overlay="#get-demo" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-2 font-semibold text-gray-800 hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 transition-all text-sm dark:text-white dark:hover:bg-gray-800 dark:hover:border-gray-900 dark:focus:ring-gray-900 dark:focus:ring-offset-gray-800 border-2 border-gray-900">
-            Get a demo
-          </a>
-        </div>
-        <!-- End Buttons -->
-
+          @include('_partials.cta-buttons')
         </div>
         <!-- End Title -->
 
@@ -431,28 +405,5 @@
 </div>
 <!-- End Icon Blocks -->
 
-
-<!-- Testimonials -->
-<div class="border-t overflow-hidden dark:border-slate-800 mb-3">
-  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-2xl pt-10 px-4 sm:px-6 lg:py-20 lg:px-8 mx-auto">
-      <div class="mb-5 sm:mb-10 text-center">
-        <h2 class="text-2xl font-bold md:text-3xl dark:text-white">Get started with <span class="text-blue-600">Steer Camapign</span></h2>
-        <p class="mt-3 text-gray-500 dark:text-gray-400">Take the first step towards unlocking the power of Mautic today. Start your free trial or request a personalized demo to experience how it can supercharge your marketing strategies.</p>
-      </div>
-
-      <!-- Buttons -->
-      <div class="grid gap-3 justify-center w-full sm:inline-flex">
-        <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="../docs/index.html">
-          Signup
-        </a>        
-        <a data-hs-overlay="#get-demo" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-gray-800 hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 transition-all text-sm dark:text-white dark:hover:bg-gray-800 dark:hover:border-gray-900 dark:focus:ring-gray-900 dark:focus:ring-offset-gray-800 border-2 border-gray-900">
-          Get a demo
-        </a>
-      </div>
-      <!-- End Buttons -->
-    </div>
-  </div>
-</div>
-<!-- End Testimonials -->
+@include('_layouts.cta')
 @endsection
