@@ -72,3 +72,14 @@ window.MauticFormCallback['agencypartner'] = {
   },
 };
 
+
+window.MauticFormCallback['getademo'] = {
+  onResponse: function (response) { 
+    if(response.success) {
+      document.getElementById("mauticform_getademo_message").classList.remove("hidden");
+    }else{
+      document.getElementById("mauticform_getademo_error").classList.remove("hidden");
+    }
+    document.getElementById("mauticform_innerform_getademo").classList.add("hidden");
+  },
+};
