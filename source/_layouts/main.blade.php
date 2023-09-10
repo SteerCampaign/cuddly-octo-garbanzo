@@ -5,23 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
-        
-        <meta name="twitter:site" content="@preline">
-        <meta name="twitter:creator" content="@htmlstream">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Hero Gradient Background using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
-        <meta name="twitter:description" content="Hero section example using Tailwind CSS for Preline UI, a product of Htmlstream.">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@steercampaign">
+        <meta name="twitter:title" content="Steer Campaign - Open Source Marketing Automation">
+        <meta name="twitter:description" content="Join the #SteerCampaign experts in marketing automation with Mautic - harnessing the power of open-source automation for your marketing success! 🚀 #MauticMarketing">
         <meta name="twitter:image" content="{{url('assets/images/og-logo.svg')}}">
       
         <meta property="og:url" content="https://preline.co/">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Preline">
-        <meta property="og:title" content="Hero Gradient Background using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
-        <meta property="og:description" content="Hero section example using Tailwind CSS for Preline UI, a product of Htmlstream.">
+        <meta property="og:site_name" content="Steer Campaign">
+        <meta property="og:title" content="Steer Campaign - Open Source Marketing Automation">
+        <meta property="og:description" content="Join the #SteerCampaign experts in marketing automation with Mautic - harnessing the power of open-source automation for your marketing success! 🚀 #MauticMarketing">
         <meta property="og:image" content="{{url('assets/images/og-logo.svg')}}">
 
         <title>{{ $page->title }}</title>
+
+        @if ($page->production)
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WPHHTDP');</script>
+        <!-- End Google Tag Manager -->        
+        @endif
 
         <link rel="icon" type="image/svg+xml" href="{{url('assets/images/favicon.svg')}}">
         <link rel="icon" type="image/png" href="{{url('assets/images/favicon.png')}}">        
@@ -54,10 +63,50 @@
         </script>        
     </head>
     <body class="dark:bg-slate-900">
+        @if ($page->production)
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPHHTDP"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->        
+        @endif        
         @include('_layouts._header.menu')
         @yield('body')
         @include('_partials.modal')
         @stack('data')
         @include('_layouts._footer.menu')
+        @stack('scripts')
+        <script>
+            window.MauticFormCallback = window.MauticFormCallback || {};
+            window.dataLayer = window.dataLayer || [];
+            var allForms = window.document.forms;
+            for (var i = 0; i < allForms.length; i++) {
+               var form = allForms[i];
+
+                if (form.hasAttribute('data-mautic-form')) {
+                    var dataMauticForm = form.getAttribute('data-mautic-form');
+                    
+                    MauticFormCallback[dataMauticForm] = {
+                        onResponse: function(response) {
+                            if(response.success) {
+                              document.getElementById(`mauticform_${dataMauticForm}_message`).classList.remove("hidden");
+                            }else{
+                              document.getElementById(`mauticform_${dataMauticForm}_error`).classList.remove("hidden");
+                            }
+                            if(dataMauticForm === 'getademo')
+                            {
+                                document.getElementById("mauticform_innerform_getademo").classList.add("hidden");
+                            }
+                            
+                            @if ($page->production)                            
+                            window.dataLayer.push({
+                                'event': 'form-submitted',
+                                'formName': dataMauticForm,
+                            });
+                            @endif
+                        },
+                    };
+                }
+            } 
+        </script>
     </body>
 </html>
