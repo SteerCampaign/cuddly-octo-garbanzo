@@ -184,21 +184,118 @@
   <div class="max-w-xl mx-auto">
     <div class="text-center">
       <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
-        Contact us
+        Join our Agency Partner Program
       </h1>
       <p class="mt-1 text-gray-600 dark:text-gray-400">
-        We'd love to talk about how we can help you.
+        Unlock all the amazing growth benefits of the Steer Campaign Agency Partner Program by applying now. Your application will be reviewed quickly and all verified freelancers and agencies are accepted!
       </p>
     </div>
   </div>
 
-  <div class="mt-12 max-w-lg mx-auto">
+  <div class="mt-12 mx-auto">
     <!-- Card -->
     <div class="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
       <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-gray-200">
-        Fill in the form
+        Please fill in this form
       </h2>
-      <script type="text/javascript" src="//engage.steercampaign.com/form/generate.js?id=3"></script>  
+      <style type="text/css" scoped>
+        .mauticform-field-hidden { display:none }
+      </style>
+      <div id="mauticform_wrapper_agencypartner" class="mauticform_wrapper">
+        <form autocomplete="false" role="form" method="post" action="https://engage.steercampaign.com/form/submit?formId=4" id="mauticform_agencypartner" data-mautic-form="agencypartner" enctype="multipart/form-data">
+          <div class="bg-red-500 text-sm text-white rounded-md p-4 mauticform-error mb-4 hidden" id="mauticform_agencypartner_error"></div>
+          <div class="bg-green-500 text-sm text-white rounded-md p-4 mauticform-message mb-4 hidden" id="mauticform_agencypartner_message" role="alert"></div>
+            <div class="mauticform-innerform">
+              <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+                <div class="grid gap-4 lg:gap-6 mb-5">
+                  <!-- Grid -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                    <div id="mauticform_agencypartner_first_name" data-validate="first_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
+                      <label id="mauticform_label_agencypartner_first_name" for="mauticform_input_agencypartner_first_name" class="block text-sm text-gray-700 font-medium dark:text-white">First Name *</label>
+                      <input id="mauticform_input_agencypartner_first_name" name="mauticform[first_name]" value="" placeholder="First Name" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="text">
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+          
+                    <div id="mauticform_agencypartner_last_name" data-validate="last_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
+                      <label id="mauticform_label_agencypartner_last_name" for="mauticform_input_agencypartner_last_name" class="block text-sm text-gray-700 font-medium dark:text-white">Last Name</label>
+                      <input id="mauticform_input_agencypartner_last_name" name="mauticform[last_name]" value="" placeholder="Last Name" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="text">
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+                  </div>
+                  <!-- End Grid -->
+                </div>
+  
+                <div class="grid gap-4 lg:gap-6 mb-5">
+                  <!-- Grid -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                    <div id="mauticform_agencypartner_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-3 mauticform-required">
+                      <label id="mauticform_label_agencypartner_email" for="mauticform_input_agencypartner_email" class="block text-sm text-gray-700 font-medium dark:text-white">Email *</label>
+                      <input id="mauticform_input_agencypartner_email" name="mauticform[email]" value="" placeholder="Email" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="email">
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+          
+                    <div id="mauticform_agencypartner_phone_number" data-validate="phone_number" data-validation-type="tel" class="mauticform-row mauticform-tel mauticform-field-4 mauticform-required">
+                      <label id="mauticform_label_agencypartner_phone_number" for="mauticform_input_agencypartner_phone_number" class="block text-sm text-gray-700 font-medium dark:text-white">Phone Number *</label>
+                      <input id="mauticform_input_agencypartner_phone_number" name="mauticform[phone_number]" value="" placeholder="Phone Nubmer" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="tel">                       
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+                  </div>
+                  <!-- End Grid -->
+                </div>
+
+                <div class="grid gap-4 lg:gap-6 mb-5">
+                  <!-- Grid -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                    <div id="mauticform_agencypartner_company_name" data-validate="company_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-5 mauticform-required">
+                      <label id="mauticform_label_agencypartner_company_name" for="mauticform_input_agencypartner_company_name" class="block text-sm text-gray-700 font-medium dark:text-white">Company Name *</label>
+                      <input id="mauticform_input_agencypartner_company_name" name="mauticform[company_name]" value="" placeholder="Company Name" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="text">
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>                      
+                    </div>
+          
+                    <div id="mauticform_agencypartner_company_website" data-validate="company_website" data-validation-type="url" class="mauticform-row mauticform-url mauticform-field-6 mauticform-required">
+                      <label id="mauticform_label_agencypartner_company_website" for="mauticform_input_agencypartner_company_website" class="block text-sm text-gray-700 font-medium dark:text-white">Company Website *</label>
+                      <input id="mauticform_input_agencypartner_company_website" name="mauticform[company_website]" value="" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" type="url">
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+                  </div>
+                  <!-- End Grid -->
+                </div>
+
+                <div class="grid gap-4 lg:gap-6 mb-5">
+                  <!-- Grid -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                    <div id="mauticform_agencypartner_number_of_employees" data-validate="number_of_employees" data-validation-type="select" class="mauticform-row mauticform-select mauticform-field-7 mauticform-required">
+                      <label id="mauticform_label_agencypartner_number_of_employees" for="mauticform_input_agencypartner_number_of_employees" class="block text-sm text-gray-700 font-medium dark:text-white">Number of Employees *</label>
+                      <select id="mauticform_input_agencypartner_number_of_employees" name="mauticform[number_of_employees]" value="" placeholder="Please Select" class="mauticform-selectbox py-3 px-4 pr-9 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">                    <option value="">Please Select</option>                    <option value="1-10">1-10</option>                    <option value="11-50">11-5-</option>                    <option value="51-250">51-250</option>                    <option value="251-1000">251-1000</option>                    <option value="1000-5000">1000-5000</option>                    <option value="5000+">5000+</option>
+                      </select>
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>                                                                
+                    </div>
+          
+                    <div id="mauticform_agencypartner_average_project_size" data-validate="average_project_size" data-validation-type="select" class="mauticform-row mauticform-select mauticform-field-8 mauticform-required">
+                      <label id="mauticform_label_agencypartner_average_project_size" for="mauticform_input_agencypartner_average_project_size" class="block text-sm text-gray-700 font-medium dark:text-white">Average Project Size</label>
+                      <select id="mauticform_input_agencypartner_average_project_size" name="mauticform[average_project_size]" value="" placeholder="Please Select" class="py-3 px-4 pr-9 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">                    <option value="">Please Select</option>                    <option value="$10K">$10K</option>                    <option value="$10K-$50K">$10K-$50K</option>                    <option value="$50K-$100K">$50K-$100K</option>                    <option value="$100K+">$100K+</option>
+                      </select>
+                      <span class="mauticform-errormsg text-sm text-red-600 mt-2" style="display: none;">This is required.</span>
+                    </div>
+                  </div>
+                  <!-- End Grid -->
+
+                  <div id="mauticform_agencypartner_f_message" class="mauticform-row mauticform-text mauticform-field-9">
+                    <label id="mauticform_label_agencypartner_f_message" for="mauticform_input_agencypartner_f_message" class="block text-sm text-gray-700 font-medium dark:text-white">Message</label>
+                    <textarea id="mauticform_input_agencypartner_f_message" rows="6" name="mauticform[f_message]" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"></textarea>                                        
+                  </div>                
+  
+                  <div id="mauticform_agencypartner_submit" grid class="mauticform-row mauticform-button-wrapper mauticform-field-8">
+                    <button type="submit" name="mauticform[submit]" id="mauticform_input_agencypartner_submit" value="" class="mauticform-button py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" name="mauticform[formId]" id="mauticform_agencypartner_id" value="4">
+            <input type="hidden" name="mauticform[return]" id="mauticform_agencypartner_return" value="">
+            <input type="hidden" name="mauticform[formName]" id="mauticform_agencypartner_name" value="agencypartner">    
+          </form>
+      </div>
     </div>
     <!-- End Card -->
   </div>

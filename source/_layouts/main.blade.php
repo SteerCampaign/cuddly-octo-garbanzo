@@ -32,6 +32,26 @@
 
         <link rel="stylesheet" href="{{ url(mix('css/main.css', 'assets/build')) }}">
         <script defer src="{{ url(mix('js/main.js', 'assets/build')) }}"></script>
+        <script type="text/javascript">
+            /** This section is only needed once per page if manually copying **/
+            if (typeof MauticSDKLoaded == 'undefined') {
+                var MauticSDKLoaded = true;
+                var head            = document.getElementsByTagName('head')[0];
+                var script          = document.createElement('script');
+                script.type         = 'text/javascript';
+                script.src          = 'https://engage.steercampaign.com/media/js/mautic-form.js?v3506e1d1';
+                script.onload       = function() {
+                    MauticSDK.onLoad();
+                };
+                head.appendChild(script);
+                var MauticDomain = 'https://engage.steercampaign.com';
+                var MauticLang   = {
+                    'submittingMessage': "Please wait..."
+                }
+            }else if (typeof MauticSDK != 'undefined') {
+                MauticSDK.onLoad();
+            }
+        </script>        
     </head>
     <body class="dark:bg-slate-900">
         @include('_layouts._header.menu')
