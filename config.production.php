@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://steercampaign.com',
+    'baseUrl' => 'https://www.steercampaign.com',
     'production' => true,
 ];
