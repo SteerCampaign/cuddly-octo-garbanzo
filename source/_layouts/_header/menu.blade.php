@@ -28,7 +28,7 @@
               <a data-hs-overlay="#get-demo" class="inline-flex py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
                 Get a demo
               </a>
-              <a class="inline-flex justify-center items-center gap-x-2 text-center underline font-semibold items-center gap-2" href="https://app.steercampaign.com/login">
+              <a class="inline-flex justify-center items-center gap-x-2 text-center underline font-semibold items-center gap-2" href="https://app.steercampaign.com/admin/login">
                 Log in
               </a>
             </div>

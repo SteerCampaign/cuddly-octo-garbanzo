@@ -20,28 +20,33 @@ if(typeof prices !== 'undefined') {
 
   function getPrice()
   {
-    const selectedValue = selectElement.value;
+    const selectedValue = selectElement.value;    
 
     if(periodElement.checked) {
-      return `$ ${prices[selectedValue]['year']}`;
+      return {'id':`${prices[selectedValue]['id']}` , 'period': `$ ${prices[selectedValue]['year']}`};
     } else {
-      return `$ ${prices[selectedValue]['month']}`;
+      return {'id':`${prices[selectedValue]['id']}` , 'period': `$ ${prices[selectedValue]['month']}`};
     }
   }
 
   selectElement.addEventListener('change', function() {
-    outputSpan.textContent = getPrice();
+    const price = getPrice();
+    outputSpan.textContent = price.period;
+    
     featureElement.textContent = selectElement.value;
-    signUpElement.setAttribute('href', `${signUpUrl}?plan=${selectElement.value}&period=${periodElement.checked ? 'year' : 'month'}`);
+    signUpElement.setAttribute('href', `${signUpUrl}?plan=${price.id}&period=${periodElement.checked ? 'year' : 'month'}`);
   });
 
   periodElement.addEventListener('change', function() {    
-    outputSpan.textContent = getPrice();
-    signUpElement.setAttribute('href', `${signUpUrl}?plan=${selectElement.value}&period=${periodElement.checked ? 'year' : 'month'}`);
+    const price = getPrice();
+    outputSpan.textContent = price.period;
+    
+    featureElement.textContent = selectElement.value;
+    signUpElement.setAttribute('href', `${signUpUrl}?plan=${price.id}&period=${periodElement.checked ? 'year' : 'month'}`);
   });
 
   document.addEventListener("DOMContentLoaded", function(){
-    outputSpan.textContent = getPrice();
+    outputSpan.textContent = getPrice().period;
     featureElement.textContent = selectElement.value;
     signUpElement.setAttribute('href', `${signUpUrl}?plan=${selectElement.value}&period=${periodElement.checked ? 'year' : 'month'}`);
   });  
