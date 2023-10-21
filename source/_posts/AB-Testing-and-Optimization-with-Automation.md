@@ -7,8 +7,8 @@ authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular cont
 title: "A/B Testing and Optimization with Automation"
 date: 2022-08-01
 description: "A/B Testing and Optimization with Automation"
-categories: [configuration]
-featured: true
+categories: [Automation]
+featured: false
 cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
 ---
