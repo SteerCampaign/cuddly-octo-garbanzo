@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Revolutionize Your Strategy with Mautic Marketing Automation with Steer Campaign
+description: Automate your marketing with Mautic, and drive more leads with less effort for better ROI.
+---
+
 
 @section('body')
 @include('_partials.features.hero',[

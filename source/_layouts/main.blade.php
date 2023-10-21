@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        @if(str_ends_with($page->getUrl(), '/'))
         <link rel="canonical" href="{{ $page->getUrl() }}">
+        @else
+        <link rel="canonical" href="{{ $page->getUrl() }}/">
+        @endif
         <meta name="description" content="{{ $page->description }}">
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@steercampaign">
         <meta name="twitter:title" content="Steer Campaign - Open Source Marketing Automation">
-        <meta name="twitter:description" content="Join the #SteerCampaign experts in marketing automation with Mautic - harnessing the power of open-source automation for your marketing success! 🚀 #MauticMarketing">
+        <meta name="twitter:description" content="Discover a world of marketing potential with Steer Campaign. Unlock personalized automation and insights to boost your campaign success.">
         <meta name="twitter:image" content="{{url('assets/images/og-logo.svg')}}">
       
         <meta property="og:url" content="https://preline.co/">
@@ -17,7 +21,7 @@
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="Steer Campaign">
         <meta property="og:title" content="Steer Campaign - Open Source Marketing Automation">
-        <meta property="og:description" content="Join the #SteerCampaign experts in marketing automation with Mautic - harnessing the power of open-source automation for your marketing success! 🚀 #MauticMarketing">
+        <meta property="og:description" content="Discover a world of marketing potential with Steer Campaign. Unlock personalized automation and insights to boost your campaign success.">
         <meta property="og:image" content="{{url('assets/images/og-logo.svg')}}">
 
         <title>{{ $page->title }}</title>

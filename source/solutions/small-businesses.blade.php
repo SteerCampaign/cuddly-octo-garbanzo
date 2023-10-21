@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Mautic for Small Businesses
+description: Boost your small business marketing with Mautic solutions designed for growth at Steer Campaign.
+---
+
 
 @section('body')
 

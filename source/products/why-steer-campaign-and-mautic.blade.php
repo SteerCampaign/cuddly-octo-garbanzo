@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Why Choose Steer Campaign & Mautic
+description: Discover the unique advantages of using Mautic with Steer Campaign for your marketing needs.
+---
+
 
 @section('body')
 <!-- Hero -->

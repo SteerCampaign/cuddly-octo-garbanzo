@@ -1,7 +1,10 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Boost Conversions with Mautic Dynamic Forms with Steer Campaign
+description: Create engaging forms with Mautic, designed to optimize conversions and lead capture for your campaigns.
+---
 
 @section('body')
-
 @include('_partials.features.hero',[
   'sub_header' => 'Mautic Forms', 
   'header' => 'Dynamic forms to collect data', 

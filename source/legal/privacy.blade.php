@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Your Privacy Matters at Steer Campaign
+description: Explore our privacy policy to understand how we prioritize your data's safety at Steer Campaign.
+---
+
 
 @section('body')
 <div class="md:max-w-screen-sm text-center px-4 sm:px-6 lg:px-8 pt-24 pb-6 mx-auto">

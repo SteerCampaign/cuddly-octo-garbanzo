@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Mautic for Marketing Agencies
+description: "Transform agency marketing with Mautic’s powerful automation and integration features at Steer Campaign."
+---
 
 @section('body')
 

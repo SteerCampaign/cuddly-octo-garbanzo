@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Mautic Enterprise Solutions - Steer Campaign
+description: Elevate enterprise marketing with our robust Mautic solutions tailored for large-scale operations.
+---
 
 @section('body')
 

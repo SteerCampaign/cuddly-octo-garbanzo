@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Explore Cutting-Edge Mautic Marketing Features
+description: Explore a comprehensive toolkit of marketing features with Mautic. From robust automation to detailed reporting, elevate your marketing game today.
+---
 
 @section('body')
 @include('_partials.features.hero',[

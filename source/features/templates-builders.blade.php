@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Mautic Templates & Builders - Steer Campaign
+description: Craft stunning marketing assets with our template builders, tailored for Mautic users at Steer Campaign.
+---
+
 
 @section('body')
 

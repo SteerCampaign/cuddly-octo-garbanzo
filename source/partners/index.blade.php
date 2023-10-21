@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Elevate Your Agency with Our Mautic Partner Program
+description: Partner with Steer Campaign for exclusive benefits, support, and growth opportunities. Take your agency to new heights in the digital marketing realm.
+---
 
 @section('body')
 <!-- Hero -->

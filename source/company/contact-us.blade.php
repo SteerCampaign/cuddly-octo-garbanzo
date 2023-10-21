@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: "Reach Out: Your Mautic Marketing Success Awaits"
+description: "Need help with plans or seeking a demo? Our team of sales experts is here to assist. Contact us now for personalized advice and support."
+---
 
 @section('body')
 <!-- Contact Us -->

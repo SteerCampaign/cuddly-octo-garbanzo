@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Mautic Pricing Plans - Steer Campaign
+description: Discover transparent pricing for Mautic services, tailored to fit every budget at Steer Campaign.
+---
 
 @section('body')
 <!-- Pricing -->

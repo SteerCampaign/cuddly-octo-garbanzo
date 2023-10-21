@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Navigate Our Terms - Steer Campaign
+description: Familiarize with our terms to ensure a seamless experience with our Mautic solutions at Steer Campaign.
+---
 
 @section('body')
 

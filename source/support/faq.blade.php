@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Your Questions Answered - FAQ
+description: Get answers to common questions and explore how Mautic and Steer Campaign can empower your marketing.
+---
+
 @section('body')
 <!-- Hero -->
 <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">

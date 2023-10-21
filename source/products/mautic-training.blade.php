@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Master Mautic with Our Training
+description: Enhance your Mautic knowledge with our comprehensive training programs at Steer Campaign.
+---
 
 @section('body')
 

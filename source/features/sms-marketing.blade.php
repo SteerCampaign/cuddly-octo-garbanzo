@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Amplify ROI with Mautic SMS Marketing Strategies with Steer Campaign
+description: Explore SMS marketing with Mautic to achieve higher retention rates and boost engagement.
+---
 
 @section('body')
   @include('_partials.features.hero',[

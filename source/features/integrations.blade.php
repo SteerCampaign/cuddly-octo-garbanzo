@@ -1,7 +1,9 @@
-@extends('_layouts.main')
-
+---
+extends: _layouts.main
+title: Enhance Connectivity with Mautic Integrations with Steer Campaign
+description: Simplify workflows with seamless Mautic integrations, connecting your marketing tools effortlessly.
+---
 @section('body')
-
 @include('_partials.features.hero',[
   'sub_header' => 'Mautic Integration', 
   'header' => 'Connect Mautic to your favorite apps and services', 

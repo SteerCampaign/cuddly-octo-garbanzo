@@ -1,7 +1,10 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Unveil Insights with Mautic Reporting Tools with Steer Campaign
+description: Extract valuable insights from your data with Mautic's robust reporting tools at Steer Campaign.
+---
 
 @section('body')
-
 @include('_partials.features.hero',[
   'sub_header' => 'Mautic reporting', 
   'header' => 'Unlock Insights with Mautic Reporting',
@@ -16,7 +19,5 @@
 ])
   
 @include('_partials.features.features-blocks')
-@include('_layouts.cta')  
-
-
+@include('_layouts.cta')
 @endsection

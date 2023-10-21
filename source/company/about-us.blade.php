@@ -1,4 +1,9 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: "Discover Our Journey: Mautic Vision at Steer Campaign"
+description: "Steer Campaign is committed to democratizing marketing automation, enabling organizations to revitalize their strategies with affordable solutions."
+---
+
 @section('body')
 <!-- Hero -->
 <div class="bg-slate-900">

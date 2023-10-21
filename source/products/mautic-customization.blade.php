@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Tailored Mautic Customization - Steer Campaign
+description: Achieve marketing excellence with bespoke Mautic customization services at Steer Campaign.
+---
 
 @section('body')
 

@@ -1,7 +1,9 @@
-@extends('_layouts.main')
-
+---
+extends: _layouts.main
+title: Target Precisely with Mautic Segmentation with Steer Campaign
+description: Precision segmentation with Mautic helps tailor your marketing for different audience segments.
+---
 @section('body')
-
 @include('_partials.features.hero',[
   'sub_header' => 'Mautic Segmentation', 
   'header' => 'Connect with the right people', 

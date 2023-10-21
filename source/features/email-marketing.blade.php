@@ -1,4 +1,8 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+title: Supercharge ROI with Mautic Email Marketing Mastery
+description: Monitor each interaction and transaction to enhance your campaigns and elevate your revenue with our Email Marketing solutions​​.
+---
 
 @section('body')
   @include('_partials.features.hero',[
