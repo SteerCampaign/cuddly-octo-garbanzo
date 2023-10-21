@@ -9,7 +9,7 @@
       <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
         @if($page->authorPic)
         <div class="flex-shrink-0">
-          <img class="h-12 w-12 rounded-full" src="{{$page->authorPic}}" alt="{{$page->authorPic}}">
+          <img class="h-12 w-12 rounded-full" src="{{$page->authorPic}}" alt="{{$page->author}}">
         </div>
         @endif
 
@@ -28,10 +28,11 @@
                     <!-- Body -->
                     <div class="p-4 sm:p-5">
                       <div class="mb-2 flex w-full sm:items-center gap-x-5 sm:gap-x-3">
+                      @if($page->authorPic)
                         <div class="flex-shrink-0">
-                          <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+                          <img class="h-8 w-8 rounded-full" src="{{$page->authorPic}}" alt="{{$page->author}}">
                         </div>
-
+                      @endif
                         <div class="grow">
                           <p class="text-lg font-semibold text-gray-200">
                             {{ $page->author }}

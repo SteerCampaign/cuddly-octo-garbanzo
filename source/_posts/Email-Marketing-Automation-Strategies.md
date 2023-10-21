@@ -4,12 +4,11 @@ section: content
 author: Mohammad Abu Musa
 authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular contributor of Mautic
 title: "Email Marketing Automation Strategies"
-date: 2022-08-10
-description: Customize your site with CSS and JS
-categories: [strategies]
+date: 2023-08-10
+categories: [Strategies]
 featured: true
-cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+cover_image: "/assets/images/blog/2023/08/10/email_marketing.jpg"
+excerpt: Automate email marketing to create personalized campaigns, send timely emails, and make data-driven decisions. Marketing automation improves engagement, conversions, customer retention, and ROI.
 ---
 # Email Marketing Automation Strategies
 

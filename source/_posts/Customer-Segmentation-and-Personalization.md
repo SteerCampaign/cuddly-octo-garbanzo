@@ -5,12 +5,11 @@ author: Mohammad Lahlouh
 authorPic: "/assets/images/about-us/mohammad-lahlouh.jpeg"
 authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular contributor of Mautic
 title: "Customer Segmentation and Personalization"
-date: 2022-08-20
-description: Customize your site with CSS and JS
+date: 2023-08-20
 categories: [Personalization, Segmentation]
-featured: true
-cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+featured: false
+cover_image: "/assets/images/blog/2023/08/20/segmentation.jpg"
+excerpt: Automate customer segmentation and personalization to improve engagement, conversions, and loyalty. Marketing Automation tools help you create and manage segments in real-time, deliver personalized content, and track customer behavior for data-driven decisions.
 ---
 # Customer Segmentation and Personalization
 

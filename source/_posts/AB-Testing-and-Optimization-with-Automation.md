@@ -5,12 +5,11 @@ author: Mohammad Abu Musa
 authorPic: "/assets/images/about-us/mohammad-abumusa.jpeg"
 authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular contributor of Mautic
 title: "A/B Testing and Optimization with Automation"
-date: 2022-09-05
-description: "A/B Testing and Optimization with Automation"
+date: 2023-09-05
 categories: [Automation, Optimization]
 featured: false
-cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+cover_image: "/assets/images/blog/2023/09/05/abtesting.webp"
+excerpt: In the dynamic world of digital marketing, A/B testing and optimization are essential components for success. Marketing Automation platforms can help businesses streamline and automate these processes, resulting in more effective campaigns, data-driven decision-making, and cost-efficiency.
 ---
 
 # A/B Testing and Optimization with Automation

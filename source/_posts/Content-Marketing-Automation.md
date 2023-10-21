@@ -5,12 +5,11 @@ author: Mohammad Lahlouh
 authorPic: "/assets/images/about-us/mohammad-lahlouh.jpeg"
 authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular contributor of Mautic
 title: "Content Marketing Automation: Streamlining Your Strategy"
-date: 2022-09-10
-description: Customize your site with CSS and JS
-categories: [strategy, content]
-featured: true
-cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+date: 2023-09-10
+categories: [Strategy, Content]
+featured: false
+cover_image: "/assets/images/blog/2023/09/10/content-marketing.webp"
+excerpt: Automate your content marketing to boost personalization, efficiency, and data-driven decision making. Select the right tools, create a content calendar, segment your audience, and analyze and optimize your content. Overcome challenges by maintaining authenticity, keeping content fresh, and monitoring and adjusting your strategy.
 ---
 
 # Content Marketing Automation: Streamlining Your Strategy

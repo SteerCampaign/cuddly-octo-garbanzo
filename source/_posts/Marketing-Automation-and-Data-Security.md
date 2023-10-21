@@ -5,12 +5,11 @@ author: Mohammad Lahlouh
 authorPic: "/assets/images/about-us/mohammad-lahlouh.jpeg"
 authorDescription: Mohammad is the cofounder of SteerCampaing, he a regular contributor of Mautic
 title: "Marketing Automation and Data Security"
-date: 2022-09-15
-description: Customize your site with CSS and JS
-categories: [security, data]
+date: 2023-09-15
+categories: [Security, Data]
 featured: true
-cover_image: "https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+cover_image: "/assets/images/blog/2023/09/15/security.jpg"
+excerpt: Data security is essential in marketing automation to protect sensitive customer information, build trust, comply with regulations, and ensure business continuity. Best practices include access control, data encryption, audits, employee training, compliance, data backups, vendor security, and incident response plans. Data security benefits include customer trust, reputation management, legal compliance, and business continuity.
 ---
 # Marketing Automation and Data Security
 
