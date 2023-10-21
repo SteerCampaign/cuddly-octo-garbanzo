@@ -46,6 +46,7 @@
           <div class="mt-3 grid space-y-3">
             <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/company/about-us/">About Us</a></p>
             <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/partners/">Agency Partner Program</a></p>            
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/blog">Blog</a></p> 
           </div>
 
         </div>
