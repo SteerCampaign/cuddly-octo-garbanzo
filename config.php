@@ -5,6 +5,10 @@ return [
     'baseUrl' => 'https://cuddly-octo-garbanzo.ddev.site',
     'title' => 'Unleash Mautic Marketing Excellence with Steer Campaign',
     'description' => 'Discover a world of marketing potential with Steer Campaign. Unlock personalized automation and insights to boost your campaign success.',
+    'checkoutLinks' => [
+        'selfServiceLink' => 'https://buy.stripe.com/test_7sIeWk4q949ZbzqfYZ',
+        'standardLink' => 'https://buy.stripe.com/test_cN2dSgaOx8qfeLC003'
+    ],
     'collections' => [
         'posts' => [
             'author' => 'Mohammad Abu Musa', // Default author, if not provided in a post

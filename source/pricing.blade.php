@@ -86,7 +86,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
             <path d="M11.5219 4.0949C11.7604 3.81436 12.181 3.78025 12.4617 4.01871C12.7422 4.25717 12.7763 4.6779 12.5378 4.95844L6.87116 11.6251C6.62896 11.91 6.1998 11.94 5.9203 11.6916L2.9203 9.02494C2.64511 8.78033 2.62032 8.35894 2.86493 8.08375C3.10955 7.80856 3.53092 7.78378 3.80611 8.02839L6.29667 10.2423L11.5219 4.0949Z" fill="currentColor"/>
           </svg>
           <span class="text-gray-800 dark:text-gray-400">
-            5,000 Contacts *
+            5,000 Contacts
           </span>
         </li>
 
@@ -95,7 +95,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
             <path d="M11.5219 4.0949C11.7604 3.81436 12.181 3.78025 12.4617 4.01871C12.7422 4.25717 12.7763 4.6779 12.5378 4.95844L6.87116 11.6251C6.62896 11.91 6.1998 11.94 5.9203 11.6916L2.9203 9.02494C2.64511 8.78033 2.62032 8.35894 2.86493 8.08375C3.10955 7.80856 3.53092 7.78378 3.80611 8.02839L6.29667 10.2423L11.5219 4.0949Z" fill="currentColor"/>
           </svg>
           <span class="text-gray-800 dark:text-gray-400">
-            5 Dynamic segments **
+            5 Dynamic segments 
           </span>
         </li>
 
@@ -142,8 +142,8 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
         </li>
       </ul>
 
-      <a class="mt-5 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-600 font-semibold text-blue-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm py-3 px-4 dark:text-blue-500 dark:border-blue-600 dark:hover:border-blue-700" href="#">
-        Sign up
+      <a class="mt-5 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-600 font-semibold text-blue-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm py-3 px-4 dark:text-blue-500 dark:border-blue-600 dark:hover:border-blue-700" href="{{$page->checkoutLinks['selfServiceLink']}}">
+        Subscribe
       </a>
     </div>
     <!-- End Card -->
@@ -165,7 +165,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
             <path d="M11.5219 4.0949C11.7604 3.81436 12.181 3.78025 12.4617 4.01871C12.7422 4.25717 12.7763 4.6779 12.5378 4.95844L6.87116 11.6251C6.62896 11.91 6.1998 11.94 5.9203 11.6916L2.9203 9.02494C2.64511 8.78033 2.62032 8.35894 2.86493 8.08375C3.10955 7.80856 3.53092 7.78378 3.80611 8.02839L6.29667 10.2423L11.5219 4.0949Z" fill="currentColor"/>
           </svg>
           <span class="text-gray-800 dark:text-gray-400">
-            10,000 Contacts*
+            10,000 Contacts
           </span>
         </li>
 
@@ -174,7 +174,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
             <path d="M11.5219 4.0949C11.7604 3.81436 12.181 3.78025 12.4617 4.01871C12.7422 4.25717 12.7763 4.6779 12.5378 4.95844L6.87116 11.6251C6.62896 11.91 6.1998 11.94 5.9203 11.6916L2.9203 9.02494C2.64511 8.78033 2.62032 8.35894 2.86493 8.08375C3.10955 7.80856 3.53092 7.78378 3.80611 8.02839L6.29667 10.2423L11.5219 4.0949Z" fill="currentColor"/>
           </svg>
           <span class="text-gray-800 dark:text-gray-400">
-            10 Dynamic segments **
+            10 Dynamic segments 
           </span>
         </li>
 
@@ -183,7 +183,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
             <path d="M11.5219 4.0949C11.7604 3.81436 12.181 3.78025 12.4617 4.01871C12.7422 4.25717 12.7763 4.6779 12.5378 4.95844L6.87116 11.6251C6.62896 11.91 6.1998 11.94 5.9203 11.6916L2.9203 9.02494C2.64511 8.78033 2.62032 8.35894 2.86493 8.08375C3.10955 7.80856 3.53092 7.78378 3.80611 8.02839L6.29667 10.2423L11.5219 4.0949Z" fill="currentColor"/>
           </svg>
           <span class="text-gray-800 dark:text-gray-400">
-            50,000 Email Sends ***
+            50,000 Email Sends 
           </span>
         </li>
 
@@ -240,8 +240,8 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
 
       </ul>
 
-      <a class="mt-5 inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-md hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="https://github.com/htmlstreamofficial/preline/tree/main/examples/html">
-        Sign up
+      <a class="mt-5 inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-md hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="{{$page->checkoutLinks['standardLink']}}">
+        Subscribe
       </a>
     </div>
     <!-- End Card -->
@@ -285,7 +285,7 @@ description: Discover transparent pricing for Mautic services, tailored to fit e
       </ul>
 
       <a data-hs-overlay="#get-demo" class="mt-5 inline-flex justify-center items-center gap-2 rounded-md border-2 border-blue-600 font-semibold text-blue-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm py-3 px-4 dark:text-blue-500 dark:border-blue-600 dark:hover:border-blue-700" href="#">
-        Sign up
+        Contact Us
       </a>
     </div>
     <!-- End Card -->
